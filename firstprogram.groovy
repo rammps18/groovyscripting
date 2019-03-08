@@ -1,5 +1,5 @@
 //variables
-@Library('my-shared-library')
+@Library('my-shared-library@v5')
 def pplnjob
 
 //load and define the pipeline
