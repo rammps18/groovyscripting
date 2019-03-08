@@ -1,10 +1,10 @@
-import com.cloudbees.groovy.cps.NonCPS
+@Library('pipeline-shared-library@v5')
 
 //variables
 def pplnjob
 
 //load and define the pipeline
-node() {
+node(master) {
 
 pplnjob = load '../workspace@script/singlepipeline.groovy'
 pplnjob.props()
