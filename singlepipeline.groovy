@@ -1,5 +1,4 @@
 #!groovy
-@Library('shared') _
 
 // Call shared libaray for common params
 def paramList = jobParams.listParams ([
