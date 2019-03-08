@@ -7,7 +7,7 @@ def newParameters = []
 newParameters.Add([
 $class 			: 'StringParameterDefinition',
 name 			: 'RELEASE_TAG_NAME',
-defaultValue	: '',
+defaultValue	: 'hello',
 description		: 'SVN tag to use / deploy',
 ])
 
