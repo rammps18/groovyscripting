@@ -11,6 +11,8 @@ defaultValue	: 'hello',
 description		: 'SVN tag to use / deploy',
 ])
 
+parameters(newParameters)
+
 }
 
 
