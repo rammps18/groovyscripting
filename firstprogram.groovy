@@ -4,9 +4,9 @@ import com.cloudbees.groovy.cps.NonCPS
 def pplnjob
 
 //load and define the pipeline
-node('master') {
+node() {
 
-pplnjob = load './singlepipeline.groovy'
+pplnjob = load '../workspace@script/singlepipeline.groovy'
 pplnjob.props()
 
 }
