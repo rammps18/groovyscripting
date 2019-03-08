@@ -1,5 +1,6 @@
 //variables
-@Library('my-shared-library@v5')
+import jenkins.model.*
+jenkins = Jenkins.instance 
 def pplnjob
 
 //load and define the pipeline
