@@ -1,5 +1,8 @@
 import com.cloudbees.groovy.cps.NonCPS
 
+//variables
+def pplnjob
+
 //load and define the pipeline
 node('master') {
 
