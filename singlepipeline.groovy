@@ -1,4 +1,5 @@
 #!groovy
+import groovy.lang.Binding
 
 // Call shared libaray for common params
 def paramList = jobParams.listParams ([
