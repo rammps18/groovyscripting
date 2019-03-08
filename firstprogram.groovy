@@ -1,4 +1,5 @@
 //variables
+import jenkins.model.*
 def pplnjob
 
 //load and define the pipeline
