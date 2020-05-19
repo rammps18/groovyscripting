@@ -3,3 +3,5 @@ http://groovy-lang.org/
 http://groovy-lang.org/documentation.html
 
 https://discord.gg/gx4Z8XY
+
+https://bintray.com/groovy/Distributions/Windows-Installer/groovy-2.4.5-installer/
