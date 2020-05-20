@@ -1,0 +1,18 @@
+First install sdkman
+
+https://sdkman.io/install
+
+commands:
+
+curl -s "https://get.sdkman.io" | bash
+
+source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+sdk version
+
+sdkman commands to install groovy
+
+sdk list groovy
+
+sdk install groovy 2.4.0
+
